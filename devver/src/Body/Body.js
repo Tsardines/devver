@@ -3,10 +3,7 @@ import './Body.css';
 
 const Body = () => (
 
-
-
   <div className="body">
-    <h1>Body</h1>
 
     <div className="arrows">
       <img src={window.location.origin + '/images/left-arrow.png'} alt="left-a" />

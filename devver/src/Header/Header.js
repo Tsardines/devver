@@ -2,15 +2,20 @@ import React from 'react';
 import './Header.css';
 
 const Header = () => (
-  <div className="header">
-    <h1>This is the Header</h1>
-    <h2>Sub-header</h2>
-    <li>
-      <ul>Interview Prep</ul>
-      <ul>Algorithm Practice</ul>
-      <ul>Job Boards</ul>
-      <ul>News and Forums</ul>
-    </li>
+  <div>
+    <div className="header">
+      <h1>Devver</h1>
+      <h2>Sub-header</h2>
+      </div>
+
+      <div className="nav-row">
+      <ul className="nav">
+        <li>Interview Prep</li>
+        <li>Algorithm Practice</li>
+        <li>Job Boards</li>
+        <li>News and Forums</li>
+      </ul>
+    </div>
   </div>
 )
 

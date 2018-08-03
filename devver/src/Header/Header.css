@@ -1,3 +1,27 @@
 .header {
   background-color: turquoise;
+  display: flex;
+  justify-content: center;
+}
+
+.header h1 {
+  padding-right: 1em;
+}
+
+.nav {
+  background-color: pink;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  list-style-type: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.nav li {
+  padding-right: 2em;
+}
+
+.nav li:hover {
+  color: white;
 }
