@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Header from './Header/Header';
-import Arrows from './Arrows/Arrows';
+import Body from './Body/Body';
 import Footer from './Footer/Footer';
 
 import './App.css';
@@ -10,7 +10,7 @@ class App extends Component {
     return (
       <div className="Everything">
         <Header />
-        <Arrows />
+        <Body />
         <Footer />
       </div>
     );

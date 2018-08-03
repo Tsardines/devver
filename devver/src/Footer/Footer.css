@@ -1,3 +1,10 @@
 .footer {
-  background-color: blue
+  background-color: pink;
+}
+
+.footer-links {
+  background-color: purple;
+  list-style-type: none;
+  height: 15vh;
+  width: 9vw;
 }
