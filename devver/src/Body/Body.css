@@ -1,11 +1,60 @@
 .body {
   background-color: turquoise;
-  height: 100vh;
+  height: 120vh;
+  position: relative;
   width: 100%;
 }
 
-.arrows {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 20%;
+.grid {
+  background-color: pink;
+  margin-left: 10%;
+  width: 80%;
 }
+
+.row-1 {
+  align-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.row-2 {
+  align-content: center;
+  background-color: orange;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.row-3 {
+  align-content: center;
+  background-color: blue;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.box {
+  background-color: white;
+  height: 10em;
+  width: 10em;
+}
+
+.arrow-l {
+  background-color: red;
+  display: flex;
+  justify-content: left;
+  width: 9vw;
+}
+
+.arrow-r {
+  background-color: red;
+  display: flex;
+  float: right;
+  justify-content: right;
+  width: 9vw;
+}
+
+/* .arrows img:hover {
+  color: blue;
+} */

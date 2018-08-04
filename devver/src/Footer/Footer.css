@@ -1,10 +1,14 @@
 .footer {
   background-color: pink;
+  height: 20vh;
+  padding-top: 4em;
 }
 
 .footer-links {
   background-color: purple;
-  list-style-type: none;
+  font-size: 1.2em;
   height: 15vh;
+  list-style-type: none;
+  margin-left: 40%;
   width: 9vw;
 }
