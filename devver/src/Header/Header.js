@@ -1,23 +1,29 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import './Header.css';
+import IntPrep from './1IntPrep/IntPrep';
+import Algo from './2Algo/Algo';
 
 const Header = () => (
-  <div>
-    <div className="header">
-      <h1>Devver</h1>
-      <h2>Sub-header</h2>
-      </div>
-
-      <div className="nav-row">
-      <ul className="nav">
-        <li>Interview Prep</li>
-        <li>Algorithm Practice</li>
-        <li>Home</li>
-        <li>Job Boards</li>
-        <li>News and Forums</li>
+  <Router>
+    <div>
+      <ul>
+        <li>
+        </li>
+        <li>
+          <Link to="/interview-prep">Interview Prep</Link>
+        </li>
+        <li>
+          <Link to="/algorithm-practice">Algorithm Practice</Link>
+        </li>
       </ul>
+
+      <hr />
+
+      <Route path="/interview-prep" component={IntPrep} />
+      <Route path="/algorithm-practice" component={Algo} />
     </div>
-  </div>
+  </Router>
 )
 
 export default Header;
