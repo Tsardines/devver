@@ -1,7 +1,7 @@
 import React from 'react';
-import './Body.css';
+import './IntPrep.css';
 
-const Body = () => (
+const IntPrep = () => (
 
   <div className="body">
 
@@ -61,7 +61,7 @@ const Body = () => (
         <img className="brg" src={window.location.origin + "/images/burger.png"} alt="brg" />
       </div>
 
-    </div>
+    </div> 
 
   </div>
 
@@ -74,4 +74,4 @@ const Body = () => (
 
 )
 
-export default Body;
+export default IntPrep;

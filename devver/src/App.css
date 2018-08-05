@@ -1,9 +1,9 @@
-@font-face {
+/* @font-face {
   font-family: 'Mohave'; src: url("Mohave-Medium.ttf");
-}
+} */
 
-body {
-  font-family: 'Mohave';
+.body {
+  font-family: 'Damion', cursive;
 }
 
 .App {

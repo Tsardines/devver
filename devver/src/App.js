@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from './Header/Header';
-import Body from './Body/Body';
+import IntPrep from './1IntPrep/IntPrep';
+import Algo from './2Algo/Algo';
 import Footer from './Footer/Footer';
 
 import './App.css';
@@ -10,7 +11,8 @@ class App extends Component {
     return (
       <div className="Everything">
         <Header />
-        <Body />
+        <IntPrep />
+        <Algo />
         <Footer />
       </div>
     );
