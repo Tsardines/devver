@@ -6,6 +6,7 @@ import IntPrep from './1IntPrep/IntPrep.js';
 import Algo from './2Algo/Algo';
 import Home from './3Home/Home';
 import Footer from './Footer/Footer';
+import Error from './Error/Error';
 
 import './App.css';
 
@@ -20,6 +21,7 @@ class App extends Component {
           <Route path="/" component={Home} />
           <Route path="/interview-prep" component={IntPrep} />
           <Route path="/algorithm-practice" component={Algo} />
+          <Route component={Error} />
         </div>
       </BrowserRouter>
     </div>
