@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Route, Link } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import Header from './Header/Header';
 import IntPrep from './1IntPrep/IntPrep.js';
@@ -15,15 +15,16 @@ class App extends Component {
   render() {
     return (
       <div>
-      <Header />
+        <Header />
       <BrowserRouter>
-        <div>
-          <Route path="/" component={Home} />
+        <Switch>
+          <Route path="/" component={Home} exact />
           <Route path="/interview-prep" component={IntPrep} />
           <Route path="/algorithm-practice" component={Algo} />
           <Route component={Error} />
-        </div>
+        </Switch>
       </BrowserRouter>
+      <Footer />
     </div>
     );
   }

@@ -1,8 +1,12 @@
 import React from 'react';
 
 
-const Error = () => (
-  <div>Whoops! You tried to navigate to a page that does not exist.</div>
-)
+const Error = () => {
+  return (
+    <div>
+      <p>Whoops! You tried to navigate to a page that does not exist.</p>
+    </div>
+  );
+};
 
 export default Error;
