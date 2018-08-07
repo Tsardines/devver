@@ -15,6 +15,7 @@
   align-content: center;
   display: flex;
   flex-wrap: wrap;
+  height: 45vh;
   justify-content: space-around;
 }
 
@@ -36,8 +37,12 @@
 
 .box {
   /* background-color: white; */
-  height: 10em;
-  width: 10em;
+  height: 20em;
+  width: 20em;
+}
+
+.box h1 {
+  font-size: 35px;
 }
 
 .arrow-l {
@@ -55,7 +60,7 @@
   width: 9vw;
 }
 
-.brg {
+.int-cake {
   height: 10em;
   width: 10em;
 }

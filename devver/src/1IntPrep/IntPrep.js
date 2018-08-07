@@ -15,34 +15,24 @@ const IntPrep = () => (
       <div className="row-1">
 
         <div className="box">
-          <img className="brg" src={window.location.origin + "/images/burger.png"} alt="brg" />
+          <img className="int-cake" src={window.location.origin + "/images/cake-slice.png"} alt="cake" />
+          <h1><a href="https://www.interviewcake.com/" >Interview Cake</a></h1>
         </div>
+
         <div className="box">
           <img className="brg" src={window.location.origin + "/images/burger.png"} alt="brg" />
         </div>
-        <div className="box">
-          <img className="brg" src={window.location.origin + "/images/burger.png"} alt="brg" />
-        </div>
-        <div className="box">
-          <img className="brg" src={window.location.origin + "/images/burger.png"} alt="brg" />
-        </div>
+
 
       </div>
 
       <div className="row-2">
 
+
         <div className="box">
           <img className="brg" src={window.location.origin + "/images/burger.png"} alt="brg" />
         </div>
-        <div className="box">
-          <img className="brg" src={window.location.origin + "/images/burger.png"} alt="brg" />
-        </div>
-        <div className="box">
-          <img className="brg" src={window.location.origin + "/images/burger.png"} alt="brg" />
-        </div>
-        <div className="box">
-          <img className="brg" src={window.location.origin + "/images/burger.png"} alt="brg" />
-        </div>
+
 
       </div>
 
@@ -54,14 +44,9 @@ const IntPrep = () => (
       <div className="box">
         <img className="brg" src={window.location.origin + "/images/burger.png"} alt="brg" />
       </div>
-      <div className="box">
-        <img className="brg" src={window.location.origin + "/images/burger.png"} alt="brg" />
-      </div>
-      <div className="box">
-        <img className="brg" src={window.location.origin + "/images/burger.png"} alt="brg" />
-      </div>
 
-    </div> 
+
+    </div>
 
   </div>
 

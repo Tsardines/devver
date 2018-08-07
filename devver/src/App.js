@@ -16,14 +16,14 @@ class App extends Component {
     return (
       <div>
         <Header />
-      <BrowserRouter>
-        <Switch>
-          <Route path="/" component={Home} exact />
-          <Route path="/interview-prep" component={IntPrep} />
-          <Route path="/algorithm-practice" component={Algo} />
-          <Route component={Error} />
-        </Switch>
-      </BrowserRouter>
+        <BrowserRouter>
+          <Switch>
+            <Route path="/" component={Home} exact />
+            <Route path="/interview-prep" component={IntPrep} />
+            <Route path="/algorithm-practice" component={Algo} />
+            <Route component={Error} />
+          </Switch>
+        </BrowserRouter>
       <Footer />
     </div>
     );
