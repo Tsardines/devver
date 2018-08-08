@@ -5,9 +5,11 @@ import './Header.css';
 const Header = () => {
   return (
   <div className="header">
-    <div className="logo">
-      <img className="brg" src={window.location.origin + "/images/devver-logo.png"} alt="logo" />
+
+    <div className="logo-cont">
+      <img className="logo" src={window.location.origin + "/images/devver-logo.png"} alt="logo" />
     </div>
+
     <ul className="nav">
       <NavLink to="/interview-prep">Interview Prep&emsp;</NavLink>
       <NavLink to="/algorithm-practice">Algorithm Practice&emsp;</NavLink>
@@ -15,6 +17,7 @@ const Header = () => {
       <NavLink to="/job-boards">Job Boards&emsp;</NavLink>
       <NavLink to="/news-and-forums">News and Forums</NavLink>
     </ul>
+    
   </div>
   );
 }

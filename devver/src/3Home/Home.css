@@ -2,7 +2,28 @@
   font-size: 45px;
 }
 
-.intro-text p {
-  background-color: turquoise;
+.intro-text {
   font-size: 30px;
+}
+
+.block-1 {
+  background-color: turquoise;
+  height: 500px;
+  width: 100%;
+}
+
+.block-2 {
+  height: 500px;
+  width: 100%;
+}
+
+.block-3 {
+  background-color: turquoise;
+  height: 500px;
+  width: 100%;
+}
+
+.block-4 {
+  height: 500px;
+  width: 100%;
 }
