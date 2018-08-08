@@ -8,7 +8,14 @@
   background-color: purple;
   font-size: 1.2em;
   height: 15vh;
-  list-style-type: none;
   margin-left: 40%;
-  width: 9vw;
+  width: 12vw;
+}
+
+.footer-links a {
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: white;
 }

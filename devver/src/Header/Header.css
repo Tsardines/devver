@@ -19,10 +19,11 @@
   /* text-transform: uppercase; */
 }
 
-.nav li {
+.nav a {
   padding-right: 2em;
+  text-decoration: none;
 }
 
-.nav li:hover {
+.nav a:hover {
   color: white;
 }
