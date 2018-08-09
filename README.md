@@ -6,4 +6,4 @@
 
 #### It's built with React, which has been cool to work with.
 
-[Logo](devver-logo.png)
+[Logo](https://i.imgur.com/5KI7EJ5.png)
