@@ -1,5 +1,6 @@
 .intro-text h1 {
   font-size: 45px;
+  padding-left: 40%;
 }
 
 .intro-text {
@@ -8,22 +9,27 @@
 
 .block-1 {
   background-color: turquoise;
-  height: 500px;
+  /* height: 500px; */
   width: 100%;
 }
 
 .block-2 {
-  height: 500px;
+  /* height: 500px; */
   width: 100%;
 }
 
 .block-3 {
   background-color: turquoise;
-  height: 500px;
+  /* height: 500px; */
   width: 100%;
 }
 
 .block-4 {
-  height: 500px;
+  /* height: 500px; */
   width: 100%;
+}
+
+.block-desc {
+  padding-left: 10%;
+  width: 40%;
 }
